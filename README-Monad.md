@@ -46,6 +46,7 @@ A comprehensive journey through the layers of modern computing:
 -   **Security and Exploitation:** Put all skills together for basic penetration testing (e.g., using decryption tools to crack a password file, stopping a rogue process, exploiting a vulnerability).
 
 #### Core Technologies
+- **The Container as the Playground:** Evolve beyond the game directory. The entire container's Linux filesystem becomes the sandbox. Players will be encouraged to modify real system configuration files (e.g., in `/etc/`), interact with live system processes, and even compile and load simple kernel modules. Since the entire environment is disposable, "breaking" the container is a valid and encouraged form of learning, teaching the real-world consequences and recovery methods of system administration in a perfectly safe environment.
 -   **AI:** daemon that observes player actions via `PROMPT_COMMAND` and communicates by writing directly to the player's terminal.
 -   **Environment:** A network of Debian-slim Docker containers for a complex playground.
 
