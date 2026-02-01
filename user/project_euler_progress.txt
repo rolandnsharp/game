@@ -1,0 +1,23 @@
+Project Euler Progress:
+
+Problem 1: Multiples of 3 and 5 - Solved (JavaScript)
+Problem 2: Even Fibonacci numbers - Solved (JavaScript)
+Problem 3: Largest prime factor - Solved (JavaScript)
+Problem 4: Largest palindrome product - Solved (JavaScript)
+Problem 5: Smallest multiple - Solved (JavaScript)
+Problem 6: Sum square difference - Solved (JavaScript)
+Problem 7: 10001st prime - Solved (JavaScript)
+Problem 8: Largest product in a series - Solved (JavaScript)
+Problem 9: Special Pythagorean triplet - Solved (JavaScript)
+Problem 10: Summation of primes - Solved (JavaScript)
+Problem 11: Largest product in a grid - In Progress
+Problem 12: Highly divisible triangular number - In Progress
+Problem 13: Large sum - In Progress
+Problem 14: Longest Collatz sequence - In Progress
+Problem 15: Lattice paths - In Progress
+Problem 16: Power digit sum - Solved (JavaScript)
+Problem 17: Number letter counts - Solved (JavaScript)
+Problem 18: Maximum path sum I - In Progress
+Problem 19: Counting Sundays - In Progress
+Problem 20: Factorial digit sum - Solved (JavaScript)
+...

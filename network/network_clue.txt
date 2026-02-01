@@ -1,0 +1,7 @@
+This file simulates a captured data stream.
+
+---BEGIN TRANSMISSION---
+USER: monad
+PASS: a_weak_password
+INFO: The final key is hidden in the kernel module source.
+---END TRANSMISSION---

@@ -1,0 +1,29 @@
+Jan 1 00:00:01 hostname systemd[1]: Started Session c1 of user monad.
+Jan 1 00:00:02 hostname kernel: [    0.000000] Linux version 5.4.0-77-generic (buildd@lcy02-amd64-build-008) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #86-Ubuntu SMP Thu Jun 17 02:35:03 UTC 2021
+Jan 1 00:00:03 hostname systemd[1]: user@1000.service: Succeeded.
+Jan 1 00:00:03 hostname systemd[1]: Stopped User Manager for UID 1000.
+Jan 1 00:00:03 hostname CRON[1234]: (monad) CMD (system/cron.d/cleanup)
+Jan 1 00:00:04 hostname sshd[5678]: Accepted publickey for monad from 192.168.1.100 port 54321 ssh2: RSA SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Jan 1 00:00:05 hostname kernel: [    5.000000] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Jan 1 00:00:06 hostname systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 1 00:00:07 hostname systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 1 00:00:08 hostname systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 1 00:00:09 hostname systemd[1]: Started Run anacron jobs.
+Jan 1 00:00:10 hostname CRON[1234]: (monad) CMD (system/cron.d/cleanup)
+Jan 1 00:00:11 hostname anacron[9101]: Anacron job 'cron.daily' (cron/cleanup) started
+Jan 1 00:00:12 hostname anacron[9101]: Anacron job 'cron.daily' (cron/cleanup) finished
+Jan 1 00:00:13 hostname sudo[1122]:    monad : TTY=pts/0 ; PWD=/home/monad ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 1 00:00:14 hostname systemd[1]: apt-daily.service: Succeeded.
+Jan 1 00:00:15 hostname systemd[1]: Finished Daily apt download activities.
+Jan 1 00:00:16 hostname sudo[1122]:    monad : TTY=pts/0 ; PWD=/home/monad ; USER=root ; COMMAND=/usr/bin/apt install some-secret-package
+Jan 1 00:00:17 hostname systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 1 00:00:18 hostname systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 1 00:00:19 hostname systemd[1]: Finished Daily apt upgrade and clean activities.
+Jan 1 00:00:20 hostname CRON[1234]: (monad) CMD (system/cron.d/cleanup)
+Jan 1 00:00:21 hostname systemd[1]: Starting Clean php session files...
+Jan 1 00:00:22 hostname systemd[1]: phpsessionclean.service: Succeeded.
+Jan 1 00:00:23 hostname systemd[1]: Finished Clean php session files.
+Jan 1 00:00:24 hostname systemd[1]: Started CUPS Scheduler.
+Jan 1 00:00:25 hostname kernel: [   25.000000] audit: type=1400 audit(1640995200.0:1): apparmor="DENIED" operation="open" profile="snap.firefox.firefox" name="/var/log/secret_monad_activity.log" pid=12345 comm="firefox" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jan 1 00:00:26 hostname systemd[1]: Started Cleanup of Temporary Directories.
+Jan 1 00:00:27 hostname CRON[1234]: (monad) CMD (system/cron.d/cleanup)

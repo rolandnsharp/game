@@ -1,0 +1,13 @@
+You sit down at the terminal. It hums with a quiet energy.
+
+The screen flickers to life, not with a familiar login prompt, but with a single, cryptic message:
+
+"The user is gone. The system remains.
+
+Their story is etched into the filesystem, a digital ghost in the machine.
+
+Explore. Learn. Uncover the truth.
+
+Your journey begins in their home.
+
+`cd user`"

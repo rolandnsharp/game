@@ -1,0 +1,20 @@
+# Old Apache configuration backup
+# This file was backed up before a major rewrite.
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    <Directory /var/www/html>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+    # !!! IMPORTANT: This sensitive data was moved to a separate config file !!!
+    # Define MONAD_SECRET_KEY "supersecretkey123"
+    # SetEnv MONAD_DB_PASSWORD "old_dev_password"
+
+</VirtualHost>

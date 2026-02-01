@@ -1,0 +1,10 @@
+# It looks like the user was experimenting with password hashing.
+# Maybe there's a way to crack these hashes?
+# I've heard of a tool called "John the Ripper"...
+
+root:$1$salty$a8.jN1.B.a.Kj2.jKj.L/:10933:0:99999:7:::
+guest:$1$salty$a8.jN1.B.a.Kj2.jKj.L/:10933:0:99999:7:::
+user:$1$salty$a8.jN1.B.a.Kj2.jKj.L/:10933:0:99999:7:::
+admin:$1$salty$a8.jN1.B.a.Kj2.jKj.L/:10933:0:99999:7:::
+test:$1$salty$a8.jN1.B.a.Kj2.jKj.L/:10933:0:99999:7:::
+monad:$1$salty$U.6.B.U.B.U.6.B.U.B.U/:10933:0:99999:7:::

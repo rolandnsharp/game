@@ -1,0 +1,7 @@
+Some of the challenges ahead will require you to edit files.
+
+The previous user was a master of the Vim editor. They left the system's built-in tutor for you to learn from. It is the single most powerful tool you will acquire on this journey.
+
+To begin your training, run the command: vimtutor
+
+Master it. Every minute you spend there will repay itself tenfold.

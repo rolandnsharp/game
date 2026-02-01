@@ -1,0 +1,12 @@
+"The limits of my language mean the limits of my world." - Wittgenstein
+
+"A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable." - Lamport
+
+---
+TODO:
+- Finish the crypto puzzle for the /.well-known/security.txt file.
+- Refactor the awk script for parsing the server logs. It's too slow.
+- Explore the possibility of using a bloom filter for the recommendation engine.
+
+---
+Another late night. The code is compiling, but the logic is flawed. I'm close, I can feel it. The Monad is within reach.

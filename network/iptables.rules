@@ -1,0 +1,29 @@
+#
+# /etc/iptables.rules
+#
+*filter
+:INPUT DROP [0:0]
+:FORWARD DROP [0:0]
+:OUTPUT ACCEPT [0:0]
+
+# Allow loopback traffic
+-A INPUT -i lo -j ACCEPT
+
+# Allow established connections
+-A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+
+# Allow SSH on port 22 from a specific IP range (office)
+-A INPUT -p tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT
+
+# Allow HTTP and HTTPS
+-A INPUT -p tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp --dport 443 -j ACCEPT
+
+# Drop all other traffic
+-A INPUT -j DROP
+
+# Log suspicious traffic (e.g., attempts to access the database port)
+# Note: The target IP 10.0.0.51 seems important. Why was it singled out?
+-A INPUT -p tcp --dport 5432 -d 10.0.0.51 -j LOG --log-prefix "Suspicious DB access attempt: "
+
+COMMIT

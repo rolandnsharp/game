@@ -1,0 +1,6 @@
+My thoughts on the Monad project:
+
+- The core logic is still eluding me. How do you make a program that can rewrite itself without creating an infinite loop of garbage?
+- I need to find a better way to manage the configuration. Hardcoding the database password is a terrible idea, even for a prototype.
+- The log parser is a good start, but it's not sophisticated enough to handle the sheer volume of data I'm dealing with. I need to find a way to filter out the noise and find the signal.
+- I keep getting these strange access requests in the server logs. I need to investigate them. It's probably just a bot, but it's nagging at me.

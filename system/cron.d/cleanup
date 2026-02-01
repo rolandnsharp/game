@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This script runs every 5 minutes and deletes all files in /tmp that are older than 1 hour.
+# It's a simple cleanup script, but it's also a puzzle.
+# The user needs to figure out how to stop this script from running.
+
+# To make this a puzzle, we'll create a file in /tmp that the user needs to save.
+# The file will be called "do_not_delete.txt" and will contain a clue.
+
+if [ ! -f /tmp/do_not_delete.txt ]; then
+  echo "This file contains a clue. Don't let it get deleted!" > /tmp/do_not_delete.txt
+fi
+
+find /tmp -mmin +60 -delete
